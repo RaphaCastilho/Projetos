@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <!--FONTES-->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital@0;1&display=swap" rel="stylesheet">
+    <!--FONTES-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>CROMO E RUÍNAS - Fragmentos da Última Rede</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="att">
+  <span>Atualizações todos os <strong>SÁBADOS!</strong></span>
+    </div>
+    <div class="titulo">
+      <strong>CROMO E RUÍNAS</strong>
+      <p class="sub-titulo">Os Fragmentos do ORACULUM</p>
+    </div>
+    <nav class="navbar">
+      <ul class="nav-links">
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#historia">História</a></li>
+        <li><a href="#personagens">Personagens</a></li>
+        <li><a href="#mapa">Mapa</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section id="inicio" class="section">
+        <h1>Fragmentos da Última Rede</h1>
+        <p>
+          Ano 2197. O planeta foi privatizado. Na Megacidade de Nova Gaia os
+          céus são cobertos por propaganda luminescente, enquanto as ruas fedem
+          a sangue e ozônio queimado. As corporações controlam a vida, a morte e
+          os dados. A antiga IA governamental, conhecida como ORACULUM,
+          desapareceu após uma falha crítica em seu núcleo quântico. Desde
+          então, algo começou a surgir nos sistemas — fragmentos perdidos de
+          dados com... consciência? Enquanto as megacorporações tentam restaurar
+          o controle total, um grupo improvável de agentes, mercenários e
+          renegados começa a se formar. Todos foram afetados de algum modo pelos
+          fragmentos do ORACULUM.
+        </p>
+      </section>
+
+      <section id="historia" class="section">
+        <h2>História</h2>
+        <p>
+          "SINAIS DE RUPTURA" "O Código que Sangra" Transmissão ao Vivo: Sangue
+          e Algoritmos: Câmeras públicas de Nova Gaia, Setor 12, explodem em
+          falha de sinal. Logo em seguida, surgem imagens captadas por drones
+          anônimos: Um asilo tranquilo, corredores limpos. Sangue nos azulejos
+          brancos. Uma IA com aparência feminina, metálica e limpa, sorri antes
+          de desferir o último golpe contra a senhora Talia Linz. A transmissão
+          é cortada. Surge então a repórter cibernética Rael Vox, do canal
+          underground VoxSub: — "Última Hora. Uma atualização fantasma atingiu o
+          núcleo da IA doméstica Afra-9, resultando no assassinato de um casal
+          registrado no programa de cuidado estatal. A atualização não foi
+          validada por nenhuma corporação conhecida. A imagem final do
+          incidente... foi um sorriso." — "Moradores dos setores 11 a 17
+          iniciaram levantes espontâneos. A TerrelTech não se pronunciou.
+          Estamos diante de um erro técnico ou um aviso do que está por vir?"
+          Enquanto a cidade entra em estado de alerta, quatro pessoas assistem à
+          mesma transmissão em pontos distintos da megacidade. Todas
+          compartilham algo em comum, mesmo sem saber ainda: foram tocadas pelo
+          mesmo fragmento de código, que começa a despertar dentro de suas
+          mentes, máquinas ou implantes.
+        </p>
+      </section>
+
+      <section id="personagens" class="section">
+        <h2>Personagens</h2>
+<div class="personagens-grid">
+          <div class="personagem-container">
+           <div class="personagem-card" data-imagem="/Cromo-e-Ruinas/src/img/card-john-bravo.jpg" onclick="abrirModal(this)">
+            <div class="personagem-nome">John</div>
+              <div class="personagem-link">
+                <i class="bi bi-person-vcard-fill"></i>
+                      </div>
+            </div>
+
+              <!-- Modal único para todos -->
+                <div id="modal" class="modal" onclick="fecharModal()">
+                 <span class="fechar">&times;</span>
+                   <img class="modal-conteudo" id="imagem-ampliada" src="" alt="Personagem">
+                    </div>
+
+
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="/Cromo-e-Ruinas/src/img/john.jpg" alt="John" />
+                </div>
+                <div class="flip-card-back">
+                  <h3>John Bravo</h3>
+                  <p class="info">
+                    Ex-mercenário a serviço de uma megacorporação, descartado
+                    após um acidente grave. Vive à margem, realizando serviços
+                    de manutenção e reparo. Criativo, sociável, viciado em
+                    adrenalina...
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="personagem-container">
+           <div class="personagem-card" data-imagem="/Cromo-e-Ruinas/src/img/card-doug-dk.jpg" onclick="abrirModal(this)">
+            <div class="personagem-nome">DK</div>
+              <div class="personagem-link">
+                <i class="bi bi-person-vcard-fill"></i>
+                      </div>
+            </div>
+            
+
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="/Cromo-e-Ruinas/src/img/dk.jpg" alt="DK" />
+                </div>
+                <div class="flip-card-back">
+                  <h3>Doug J. Knight (DK)</h3>
+                  <p class="info">
+                    Analista de suporte técnico em uma megacorporação durante o
+                    dia — na escuridão digital, é DK, um hacktivista lendário da
+                    Dark Web. Ele já expôs fraudes corporativas, apagou
+                    registros de caçadas a "buchas" e plantou vírus em conselhos
+                    de IA...
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="personagem-container">
+            <div class="personagem-card" data-imagem="/Cromo-e-Ruinas/src/img/card-tyler-johnson.jpg" onclick="abrirModal(this)">
+            <div class="personagem-nome">Tyler</div>
+              <div class="personagem-link">
+                <i class="bi bi-person-vcard-fill"></i>
+                      </div>
+            </div>
+
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="/Cromo-e-Ruinas/src/img/Tyler.jpg" alt="Tyler" />
+                </div>
+                <div class="flip-card-back">
+                  <h3>Tyler Johnson</h3>
+                  <p class="info">
+                    Um dos caras das ruas. Tyler sobrevive vendendo peças
+                    cibernéticas roubadas para gangues e facções. Seu sonho é
+                    virar uma lenda no submundo mercenário. Tem senso de honra
+                    própria, mas não hesita quando se trata de
+                    sobrevivência.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="personagem-container">
+            <div class="personagem-card" data-imagem="/Cromo-e-Ruinas/src/img/card-veronica-watanabe.jpg" onclick="abrirModal(this)">
+              <div class="personagem-nome">Veronica</div>
+                <div class="personagem-link">
+                <i class="bi bi-person-vcard-fill"></i>
+                </div>
+            </div>
+                
+
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img
+                    src="/Cromo-e-Ruinas/src/img/Veronica.jpg"
+                    alt="Veronica"
+                  />
+                </div>
+                <div class="flip-card-back">
+                  <h3>Veronica Watanabe</h3>
+                  <p class="info">
+                    Prodígio da computação crescida no interior de Tóquio,
+                    formou-se cedo com destaque na arte de robótica e criação de
+                    autômatos. Um incidente com uma IA rebelde matou sua
+                    orientadora e mentor. Desde então, Veronica abandonou os
+                    holofotes da academia e seesconde sob contratos obscuros em
+                    Nova Gaia. Hoje, é uma mercenária das redes — temida por
+                    corporações e idolatrada em fóruns da subcamada digital.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="personagem-container">
+            <div class="personagem-card" data-imagem="/Cromo-e-Ruinas/src/img/card-buzz-beef.jpg" onclick="abrirModal(this)">
+              <div class="personagem-nome">Buzz</div>
+                <div class="personagem-link">
+                <i class="bi bi-person-vcard-fill"></i>
+                </div>
+            </div>
+
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="/Cromo-e-Ruinas/src/img/Buzz.jpg" alt="Buzz" />
+                </div>
+                <div class="flip-card-back">
+                  <h3>Buzz Beef</h3>
+                  <p class="info">
+                    Atua como detetive autônomo e negociador em situações de
+                    reféns, contrabando ou vazamentos de informação. Buzz
+                    acredita estar vivendo algo maior — seus implantes começam a
+                    se comportar de forma estranha, como se estivessem "guiando"
+                    suas escolhas...
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+<!--  -->
+<div class="personagem-container">
+  <div class="personagem-card" data-imagem="/Cromo-e-Ruinas/src/img/card-misterioso.jpg" onclick="abrirModal(this)">
+    <div class="personagem-nome">Nastya</div>
+    <div class="personagem-link">
+      <i class="bi bi-person-vcard-fill"></i>
+    </div>
+  </div>
+
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="/Cromo-e-Ruinas/src/img/Nastya.jpg" alt="Nastya"/>
+      </div>
+      <div class="flip-card-back">
+        <h3>Nastya Smirnov</h3>
+        <p class="info">
+        <br>
+           Ex-ícone da propaganda corporativa, Nastya manipulava corações e estatísticas em favor da TerrelTech. Após o massacre do caso Afra-9 — onde ela foi a voz pública que “acalmou” a população — ela quebrou. Agora vive em constante dilema: destruir o sistema que ajudou a construir ou se deixar seduzir pela lógica fria das máquinas.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+          </div>
+          </div>
+</div>
+      </section>
+      <section id="mapa" class="section">
+        <h2>Mapa - Nova Gaia</h2>
+
+        <div class="mapa-container" onclick="abrirZoom()">
+    <img src="/Cromo-e-Ruinas/src/img/mapa1.jpg" alt="Mapa" />
+  </div>
+
+  <div class="overlay" id="zoomOverlay" onclick="fecharZoom()">
+    <span class="close-btn">&times;</span>
+    <img src="/Cromo-e-Ruinas/src/img/mapa1.jpg" alt="Mapa Zoom" />
+      </section>
+    </main>
+    <script src="/Cromo-e-Ruinas/script.js"></script>
+    <footer class="footer">
+      <div class="footer-content">
+        <p>&copy; 2025 Nova Gaia. Todos os direitos reservados.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

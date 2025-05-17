@@ -8,6 +8,8 @@
   --accent: #ff00ff;
 }
 
+/*--------------------------------------------------------*/
+
 * {
   margin: 0;
   padding: 0;
@@ -15,19 +17,9 @@
   letter-spacing: 4px;
 }
 
+/*--------------------------------------------------------*/
+
 body {
-  /*-----------background com IMG-----------------
-  font-family: "Orbitron", sans-serif;
-  background-image: url("src/img/fundo2.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  color: var(--text-light);
-  line-height: 1.6;
-  position: relative;
-  z-index: 1;
-  ----------------------------------------------*/
-  /* background-color: var(--bg-dark);  */
   font-family: "Orbitron";
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url("src/img/fundo-gif.gif");
@@ -40,6 +32,8 @@ body {
   background-attachment: fixed;
 }
 
+/*--------------------------------------------------------*/
+
 .titulo {
   font-size: 4rem;
   color: var(--neon-purple);
@@ -50,6 +44,8 @@ body {
 .sub-titulo {
   font-size: 2.4rem;
 }
+
+/*--------------------------------------------------------*/
 
 nav.navbar {
   display: flex;
@@ -81,15 +77,21 @@ nav.navbar {
   color: var(--accent);
 }
 
+/*--------------------------------------------------------*/
+
 main {
   padding: 2rem;
   position: relative;
   z-index: 2;
 }
 
+/*--------------------------------------------------------*/
+
 .section {
   margin-bottom: 4rem;
 }
+
+/*--------------------------------------------------------*/
 
 h1,
 h2 {
@@ -107,6 +109,8 @@ p {
   padding-left: 150px;
   padding-right: 150px;
 }
+
+/*--------------------------------------------------------*/
 
 .info {
   padding: 3px;
@@ -137,6 +141,8 @@ p {
   gap: 0.75rem; /* espaço entre o nome e o card */
 }
 
+/*--------------------------------------------------------*/
+
 @media (max-width: 1024px) {
   .personagens-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -150,6 +156,8 @@ p {
     margin: 2rem 40px;
   }
 }
+
+/*--------------------------------------------------------*/
 
 /* Flip Card Styles */
 .flip-card {
@@ -224,6 +232,8 @@ p {
 }
 /* Flip Card Styles */
 
+/*--------------------------------------------------------*/
+
 /* CARD */
 .personagem-card {
   display: flex;
@@ -260,7 +270,6 @@ p {
 /*--------------------------------------------------------*/
 
 /* MAPA - ZOOM */
-
 .mapa-container {
   max-width: 800px;
   cursor: pointer;
@@ -311,8 +320,8 @@ p {
   cursor: pointer;
   z-index: 1000;
 }
-
 /* MAPA - ZOOM */
+
 /*--------------------------------------------------------*/
 
 /* Modal */
@@ -417,5 +426,4 @@ p {
 .footer-links a:hover {
   color: #fff;
 }
-
 /* FOOTER */

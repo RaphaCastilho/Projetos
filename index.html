@@ -4,17 +4,23 @@
     <meta charset="UTF-8" />
     <!--FONTES-->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
     <!--FONTES-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
     <title>CROMO E RUÍNAS - Fragmentos da Última Rede</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="att">
-  <span>Atualizações todos os <strong>SÁBADOS!</strong></span>
+      <span>Atualizações todos os <strong>SÁBADOS!</strong></span>
     </div>
     <div class="titulo">
       <strong>CROMO E RUÍNAS</strong>
@@ -71,28 +77,29 @@
         </p>
       </section>
 
+      <!-- PERSONAGENS -->
       <section id="personagens" class="section">
         <h2>Personagens</h2>
-<div class="personagens-grid">
+        <div class="personagens-grid">
+          <!-- Personagem - John -->
+          <!-- Card principal -->
           <div class="personagem-container">
-           <div class="personagem-card" data-imagem="/Cromo-e-Ruinas/src/img/card-john-bravo.jpg" onclick="abrirModal(this)">
-            <div class="personagem-nome">John</div>
+            <div
+              class="personagem-card"
+              data-imagem="/Cromo-e-Ruinas/src/img/card-john-bravo.jpg"
+              onclick="abrirModal(this)"
+            >
+              <div class="personagem-nome">John</div>
               <div class="personagem-link">
                 <i class="bi bi-person-vcard-fill"></i>
-                      </div>
+              </div>
             </div>
 
-              <!-- Modal único para todos -->
-                <div id="modal" class="modal" onclick="fecharModal()">
-                 <span class="fechar">&times;</span>
-                   <img class="modal-conteudo" id="imagem-ampliada" src="" alt="Personagem">
-                    </div>
-
-
+            <!-- Flip card -->
             <div class="flip-card">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
-                  <img src="/Cromo-e-Ruinas/src/img/john.jpg" alt="John" />
+                  <img src="src/img/john.jpg" alt="John" />
                 </div>
                 <div class="flip-card-back">
                   <h3>John Bravo</h3>
@@ -107,19 +114,22 @@
             </div>
           </div>
 
+          <!-- Personagem - DK -->
           <div class="personagem-container">
-           <div class="personagem-card" data-imagem="/Cromo-e-Ruinas/src/img/card-doug-dk.jpg" onclick="abrirModal(this)">
-            <div class="personagem-nome">DK</div>
+            <div
+              class="personagem-card"
+              data-imagem="src/img/card-doug-dk.jpg"
+              onclick="abrirModal(this)"
+            >
+              <div class="personagem-nome">DK</div>
               <div class="personagem-link">
                 <i class="bi bi-person-vcard-fill"></i>
-                      </div>
+              </div>
             </div>
-            
-
             <div class="flip-card">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
-                  <img src="/Cromo-e-Ruinas/src/img/dk.jpg" alt="DK" />
+                  <img src="src/img/dk.jpg" alt="DK" />
                 </div>
                 <div class="flip-card-back">
                   <h3>Doug J. Knight (DK)</h3>
@@ -135,49 +145,52 @@
             </div>
           </div>
 
+          <!-- Personagem - Tyler -->
           <div class="personagem-container">
-            <div class="personagem-card" data-imagem="/Cromo-e-Ruinas/src/img/card-tyler-johnson.jpg" onclick="abrirModal(this)">
-            <div class="personagem-nome">Tyler</div>
+            <div
+              class="personagem-card"
+              data-imagem="src/img/card-tyler-johnson.jpg"
+              onclick="abrirModal(this)"
+            >
+              <div class="personagem-nome">Tyler</div>
               <div class="personagem-link">
                 <i class="bi bi-person-vcard-fill"></i>
-                      </div>
+              </div>
             </div>
-
             <div class="flip-card">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
-                  <img src="/Cromo-e-Ruinas/src/img/Tyler.jpg" alt="Tyler" />
+                  <img src="src/img/Tyler.jpg" alt="Tyler" />
                 </div>
                 <div class="flip-card-back">
-                  <h3>Tyler Johnson</h3>
+                  <h3>Doug Tyler Johnson</h3>
                   <p class="info">
                     Um dos caras das ruas. Tyler sobrevive vendendo peças
                     cibernéticas roubadas para gangues e facções. Seu sonho é
                     virar uma lenda no submundo mercenário. Tem senso de honra
-                    própria, mas não hesita quando se trata de
-                    sobrevivência.
+                    própria, mas não hesita quando se trata de sobrevivência.
                   </p>
                 </div>
               </div>
             </div>
           </div>
 
+          <!-- Personagem - Veronica -->
           <div class="personagem-container">
-            <div class="personagem-card" data-imagem="/Cromo-e-Ruinas/src/img/card-veronica-watanabe.jpg" onclick="abrirModal(this)">
+            <div
+              class="personagem-card"
+              data-imagem="src/img/card-veronica-watanabe.jpg"
+              onclick="abrirModal(this)"
+            >
               <div class="personagem-nome">Veronica</div>
-                <div class="personagem-link">
+              <div class="personagem-link">
                 <i class="bi bi-person-vcard-fill"></i>
-                </div>
+              </div>
             </div>
-                
-
             <div class="flip-card">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
-                  <img
-                    src="/Cromo-e-Ruinas/src/img/Veronica.jpg"
-                    alt="Veronica"
-                  />
+                  <img src="src/img/Veronica.jpg" alt="Veronica" />
                 </div>
                 <div class="flip-card-back">
                   <h3>Veronica Watanabe</h3>
@@ -195,18 +208,22 @@
             </div>
           </div>
 
+          <!-- Personagem - Buzz -->
           <div class="personagem-container">
-            <div class="personagem-card" data-imagem="/Cromo-e-Ruinas/src/img/card-buzz-beef.jpg" onclick="abrirModal(this)">
+            <div
+              class="personagem-card"
+              data-imagem="src/img/card-buzz-beef.jpg"
+              onclick="abrirModal(this)"
+            >
               <div class="personagem-nome">Buzz</div>
-                <div class="personagem-link">
+              <div class="personagem-link">
                 <i class="bi bi-person-vcard-fill"></i>
-                </div>
+              </div>
             </div>
-
             <div class="flip-card">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
-                  <img src="/Cromo-e-Ruinas/src/img/Buzz.jpg" alt="Buzz" />
+                  <img src="src/img/Buzz.jpg" alt="Buzz" />
                 </div>
                 <div class="flip-card-back">
                   <h3>Buzz Beef</h3>
@@ -222,62 +239,70 @@
             </div>
           </div>
 
-<!--  -->
-<div class="personagem-container">
-  <div class="personagem-card" data-imagem="/Cromo-e-Ruinas/src/img/card-veronica-watanabe.jpg" onclick="abrirModal(this)">
-    <div class="personagem-nome">Nastya</div>
-    <div class="personagem-link">
-      <i class="bi bi-person-vcard-fill"></i>
-    </div>
-  </div>
-
-  <div class="flip-card">
-    <div class="flip-card-inner">
-      <div class="flip-card-front">
-        <img src="/Cromo-e-Ruinas/src/img/Nastya.jpg" alt="Nastya"/>
-      </div>
-      <div class="flip-card-back">
-        <h3>Nastya Smirnov</h3>
-        <p class="info">
-        <br>
-           Ex-ícone da propaganda corporativa, Nastya manipulava corações e estatísticas em favor da TerrelTech. Após o massacre do caso Afra-9 — onde ela foi a voz pública que “acalmou” a população — ela quebrou. Agora vive em constante dilema: destruir o sistema que ajudou a construir ou se deixar seduzir pela lógica fria das máquinas.
-        </p>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
+          <!-- Personagem - Nastya -->
+          <div class="personagem-container">
+            <div
+              class="personagem-card"
+              data-imagem="src/img/card-buzz-beef"
+              onclick="abrirModal(this)"
+            >
+              <div class="personagem-nome">Nastya</div>
+              <div class="personagem-link">
+                <i class="bi bi-person-vcard-fill"></i>
+              </div>
+            </div>
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="src/img/Nastya.jpg" alt="Nastya" />
+                </div>
+                <div class="flip-card-back">
+                  <h3>Nastya Smirnov</h3>
+                  <p class="info">
+                    Ex-ícone da propaganda corporativa, Nastya manipulava
+                    corações e estatísticas em favor da TerrelTech. Após o
+                    massacre do caso Afra-9 — onde ela foi a voz pública que
+                    “acalmou” a população — ela quebrou. Agora vive em constante
+                    dilema: destruir o sistema que ajudou a construir ou se
+                    deixar seduzir pela lógica fria das máquinas.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
-          </div>
-</div>
+        </div>
       </section>
+      <!-- MODAL DE IMAGEM (usado para todos os personagens) -->
+      <div id="modal" class="modal" onclick="fecharModal()">
+        <span class="fechar">&times;</span>
+        <img
+          class="modal-conteudo"
+          id="imagem-ampliada"
+          src=""
+          alt="Personagem"
+        />
+      </div>
+
+      <!-- MAPA INTERATIVO -->
       <section id="mapa" class="section">
         <h2>Mapa - Nova Gaia</h2>
-
         <div class="mapa-container" onclick="abrirZoom()">
-    <img src="/Cromo-e-Ruinas/src/img/mapa1.jpg" alt="Mapa" />
-  </div>
-
-  <div class="overlay" id="zoomOverlay" onclick="fecharZoom()">
-    <span class="close-btn">&times;</span>
-    <img src="/Cromo-e-Ruinas/src/img/mapa1.jpg" alt="Mapa Zoom" />
+          <img src="/Cromo-e-Ruinas/src/img/mapa1.jpg" alt="Mapa" />
+        </div>
+        <div class="overlay" id="zoomOverlay" onclick="fecharZoom()">
+          <span class="close-btn">&times;</span>
+          <img src="/Cromo-e-Ruinas/src/img/mapa1.jpg" alt="Mapa Zoom" />
+        </div>
       </section>
     </main>
+
+    <!-- SCRIPT JS PRINCIPAL -->
     <script src="/Cromo-e-Ruinas/script.js"></script>
+
+    <!-- RODAPÉ -->
     <footer class="footer">
       <div class="footer-content">
         <p>&copy; 2025 Nova Gaia. Todos os direitos reservados.</p>
-        </div>
       </div>
     </footer>
   </body>
